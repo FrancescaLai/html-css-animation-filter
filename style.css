@@ -126,7 +126,6 @@
   }
 }
 
-
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -148,6 +147,40 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-top-white{
+  animation-name: square-move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes square-move {
+  0%{
+    top: -10px;
+    left: 10px;
+  }
+  100%{
+    top: -10px;
+    left: 90px;
+  }
+}
+
+.ex-13-top-white{
+  animation-name: square-move;
+  animation-duration: 2s;
+}
+
+@keyframes square-move {
+  0%{
+    top: -10px;
+    left: 10px;
+  }
+  100%{
+    top: -10px;
+    left: 90px;
+  }
+}
+
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
