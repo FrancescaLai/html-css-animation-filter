@@ -106,8 +106,22 @@
 }
 
 .ex-11-icon {
-    font-size: 60px;
+  font-size: 60px;
+  animation-name: reverserotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
+
+@keyframes reverserotate {
+  0%{
+    transform: rotate(360deg);
+  }
+  /* 50%{
+    transform: rotate(1turn);
+  } */
+}
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
